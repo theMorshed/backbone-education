@@ -3,32 +3,37 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .dark-one-color {
-    color: #1d1d1d;
+    color: #1d1d1d !important;
 }
 .dark-two-color {
-    color: #4a4a4a;
+    color: #4a4a4a !important;
 }
 .dark-three-color {
-    color: #777777;
+    color: #777777 !important;
 }
 .rating-color {
-    color: #f59e0b;
+    color: #f59e0b !important;
 }
 .footer-bg-color {
-    background-color: #161616;
+    background-color: #161616 !important;
 }
 .font-size-one {
-    font-size: 65px;
+    font-size: 65px !important;
 }
 .font-size-two {
-    font-size: 45px;
+    font-size: 45px !important;
 }
 .font-size-three {
-    font-size: 40px;
+    font-size: 40px !important;
 }
 .font-size-four {
-    font-size: 25px;
+    font-size: 25px !important;
 }
 .font-size-five {
-    font-size: 18px;
+    font-size: 18px !important;
+}
+/* it should be remove when responsive work */
+.navbar-collapse {
+    flex-basis: 0 !important;
+    flex-grow: 0 !important;
 }
