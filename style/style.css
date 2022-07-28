@@ -32,7 +32,7 @@ body {
 .font-size-five {
     font-size: 16px !important;
 }
-/* it should be remove when responsive work */
+
 .navbar-collapse {
     flex-basis: 0 !important;
     flex-grow: 0 !important;
@@ -64,4 +64,48 @@ body {
 .feedback .carousel-control-next,
 .feedback .carousel-control-prev {
     width: 3% !important;
+}
+
+/* responsive css */
+
+/* extra small device */
+@media (max-width: 576px) {
+    .navbar-collapse {
+        flex-basis: 100% !important;
+        flex-grow: 1 !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .navbar-collapse {
+        flex-basis: 100% !important;
+        flex-grow: 1 !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .navbar-collapse {
+        flex-basis: 100% !important;
+        flex-grow: 1 !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-collapse {
+        flex-basis: 0 !important;
+        flex-grow: 0 !important;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
 }
