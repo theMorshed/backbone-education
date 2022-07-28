@@ -54,3 +54,8 @@ body {
 .card-text {
     margin-bottom: 0 !important;
 }
+
+/* explore section style */
+.explore-text {
+    background-color: #F4FAFD;
+}
