@@ -124,5 +124,15 @@ body {
     }
     .carousel-caption {
         top: 5% !important;
-    }   
+    }
+    .courses .card img,
+    .explore .card img {
+        width: 100% !important;
+    }
+    .courses .card-body {
+        padding: 25px !important;
+    }
+    .courses .card-body p {
+        padding: 10px 0 !important;
+    }
 }
